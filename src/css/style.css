@@ -561,8 +561,33 @@ body {
   }
 }
 
+.tagline {
+  background-color: #ffd200;
+  padding: 89px 0;
+}
+
+.tagline__title {
+  margin: 0;
+  text-align: center;
+  color: #000000;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 50px;
+}
+
+@media (max-width: 767px) {
+  .tagline {
+    padding: 73px 0;
+  }
+  .tagline__title {
+    width: 275px;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
+
 .advantages {
-  padding: 50px 0;
+  padding: 102px 0;
 }
 
 .advantages-wrap {
@@ -597,7 +622,7 @@ body {
 
 @media (max-width: 1199px) {
   .advantages {
-    padding: 30px 0;
+    padding: 27px 0;
   }
   .advantages__card {
     margin-top: 30px;
