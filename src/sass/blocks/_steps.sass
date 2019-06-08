@@ -1,0 +1,39 @@
+.steps
+	padding-top: 25px
+	padding-bottom: 95px
+	&__title
+		max-width: 655px
+	&__subtitle
+		margin-top: 49px
+		margin-bottom: 70px
+	&-wrap
+		display: flex
+		justify-content: space-around
+	&-card
+		position: relative
+		text-align: center
+		&:last-child
+			.steps-card__img::after
+				display: none
+		&__img
+			display: flex
+			justify-content: center
+			align-items: center
+			width: 100px
+			height: 100px
+			margin: auto
+			border: 3px solid $main-color
+			border-radius: 50%
+			&::after
+				content: ''
+				position: absolute
+				top: -12px
+				right: -80px
+				width: 75px
+				height: 25px
+				background: url(../img/steps/arrow.png) no-repeat
+		&__text
+			margin-top: 25px
+			margin-bottom: 0
+			font-size: 14px
+			line-height: 20px
