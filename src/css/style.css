@@ -419,6 +419,10 @@ body {
   margin-top: 90px;
 }
 
+.slider__item {
+  outline: none;
+}
+
 .slider__img {
   margin: auto;
 }
