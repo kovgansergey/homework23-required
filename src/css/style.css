@@ -669,7 +669,8 @@ body {
 
 .tagline {
   background-color: #ffd200;
-  padding: 89px 0;
+  padding-top: 86px;
+  padding-bottom: 92px;
 }
 
 .tagline__title {
