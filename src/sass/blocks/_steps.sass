@@ -11,6 +11,7 @@
 		justify-content: space-around
 	&-card
 		position: relative
+		width: 151px
 		text-align: center
 		&:last-child
 			.steps-card__img::after
@@ -37,3 +38,40 @@
 			margin-bottom: 0
 			font-size: 14px
 			line-height: 20px
+@media (max-width: 1199px)
+	.steps
+		&-card
+			&__img
+				&::after
+					right: -60px
+@media (max-width: 991px)
+	.steps
+		&-card
+			&__img
+				&::after
+					display: none
+@media (max-width: 767px)
+	.steps
+		padding-top: 10px
+		padding-bottom: 77px
+		&-wrap
+			flex-direction: column
+			align-items: center
+		&-card
+			&__text
+				margin-bottom: 30px
+		&-card
+			&:last-child
+				.steps-card__text
+					margin-bottom: 0
+@media (max-width: 566px)
+	.steps
+		padding-top: 20px
+		&__subtitle
+			margin-top: 22px
+			margin-bottom: 32px
+		&-card
+			&__text
+				margin-top: 27px
+				font-size: 12px
+				line-height: 1.3
